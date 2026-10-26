@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#102a43">
+<meta name="description" content="Shree Vidyasagram — dressing generations with trust since 1995. Family clothing store in Khaperkheda, Nagpur.">
+<title>Shree Vidyasagram | Dressing Generations With Trust</title>
+<style>
+:root{--navy:#102a43;--navy2:#173f5f;--cream:#f7f2e8;--gold:#d9bd7a;--ink:#17232e;--muted:#64717c}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--cream);color:var(--ink)}a{color:inherit}
+.wrap{width:min(1120px,92%);margin:auto}header{background:var(--navy);color:#fff;border-bottom:1px solid #ffffff20}
+.nav{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{font-family:Georgia,serif;font-weight:700;letter-spacing:.09em;font-size:1.02rem}.brand small{display:block;color:var(--gold);font: .7rem Arial,sans-serif;letter-spacing:.18em;margin-top:5px}
+.navlinks{display:flex;gap:22px;align-items:center;font-size:.92rem}.navlinks a{text-decoration:none}.navlinks a:hover{color:var(--gold)}
+.hero{min-height:610px;display:flex;align-items:center;position:relative;color:#fff;overflow:hidden;background:#102a43}
+.hero-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 42%;filter:saturate(.95);display:block}.hero-video{background:#102a43;z-index:0}
+.hero:after{content:"";position:absolute;z-index:1;inset:0;background:linear-gradient(90deg,rgba(7,24,38,.88),rgba(7,24,38,.62) 48%,rgba(7,24,38,.14)),linear-gradient(0deg,rgba(7,24,38,.35),transparent 50%)}
+.hero-content{position:relative;z-index:2;padding:78px 0;max-width:760px}.eyebrow{color:var(--gold);letter-spacing:.23em;font-size:.76rem;font-weight:bold;text-transform:uppercase}
+h1{font-family:Georgia,serif;font-size:clamp(2.7rem,7vw,5.4rem);line-height:1.03;margin:18px 0;font-weight:500}h1 span{color:var(--gold)}
+.hero p{font-size:1.08rem;line-height:1.8;color:#e6edf2;max-width:570px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:14px 19px;border-radius:7px;text-decoration:none;font-weight:700;border:1px solid transparent;transition:.2s}.btn.gold{background:var(--gold);color:#152c3c}.btn.outline{border-color:#ffffff90;color:#fff;background:#102a4350}.btn:hover{transform:translateY(-2px)}
+.trustbar{background:#fff;border-bottom:1px solid #e9e1d4}.trustbar .wrap{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;padding:18px 0;color:var(--navy);font-size:.9rem}.trustbar strong{color:#94702c}
+section{padding:66px 0}.section-label{color:#8c6e2d;letter-spacing:.18em;text-transform:uppercase;font-size:.74rem;font-weight:bold}h2{font:500 clamp(2rem,4vw,3rem) Georgia,serif;margin:12px 0 14px;color:var(--navy)}.intro{color:var(--muted);line-height:1.75;max-width:680px}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:28px}.category{background:#fff;border:1px solid #e7dfd0;border-radius:12px;padding:24px 20px;min-height:145px}.num{font:1.5rem Georgia,serif;color:#b18b3e}.category h3{margin:14px 0 6px;color:var(--navy)}.category p{margin:0;color:var(--muted);font-size:.92rem;line-height:1.5}
+.gallery{background:#fff}.gallery-grid{display:grid;grid-template-columns:1.1fr .9fr;grid-template-rows:250px 250px;gap:14px;margin-top:28px}.gallery figure{margin:0;position:relative;overflow:hidden;border-radius:13px;background:#e7e0d4}.gallery figure:first-child{grid-row:span 2}.gallery img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s}.gallery figure:hover img{transform:scale(1.035)}.gallery figcaption{position:absolute;bottom:0;left:0;right:0;padding:35px 18px 16px;color:white;font-weight:bold;background:linear-gradient(transparent,rgba(0,0,0,.7))}
+.connect{background:var(--cream)}.social-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:26px}.social{display:flex;align-items:center;justify-content:space-between;gap:15px;border:1px solid #e5dfd3;border-radius:12px;padding:19px;text-decoration:none;background:#fff}.social:hover{border-color:var(--gold);box-shadow:0 7px 20px #102a430c}.social strong{display:block;color:var(--navy);margin-bottom:5px}.social span{font-size:.9rem;color:var(--muted)}.arrow{font-size:1.3rem;color:#a37d32}
+.visit{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:stretch}.address-card{background:var(--navy);color:#fff;border-radius:16px;padding:30px}.address-card h2{color:#fff}.address-card p{color:#e1e8ed;line-height:1.8}.address-card .btn{margin-top:8px}.hours-card{border:1px solid #e6dece;border-radius:16px;padding:30px;background:#fff}.hours-card p{color:var(--muted);line-height:1.8}.hours-card a{color:var(--navy)}
+.contact-strip{background:#eadfc8;padding:27px 0}.contact-inner{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}.contact-inner h2{font-size:1.8rem;margin:0}
+footer{background:#0b2032;color:#d5dee5;padding:30px 0;font-size:.88rem}.footer-inner{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}.footer-inner a{color:var(--gold)}
+@media(max-width:760px){.navlinks{gap:12px}.hero{min-height:560px}.hero-photo{object-position:53% center}.hero:after{background:linear-gradient(90deg,rgba(7,24,38,.83),rgba(7,24,38,.48)),linear-gradient(0deg,rgba(7,24,38,.35),transparent)}.grid{grid-template-columns:repeat(2,1fr)}.visit{grid-template-columns:1fr}.gallery-grid{grid-template-rows:220px 180px}.trustbar .wrap{justify-content:flex-start}}
+@media(max-width:480px){.nav{padding:16px 0;align-items:flex-start;flex-direction:column}.navlinks{width:100%;justify-content:space-between;font-size:.82rem}.hero{min-height:590px}.hero-content{padding:60px 0}.actions .btn{width:100%}section{padding:48px 0}.grid,.social-grid{grid-template-columns:1fr}.gallery-grid{display:flex;flex-direction:column}.gallery figure{height:240px}.gallery figure:first-child{height:330px}.trustbar .wrap{gap:10px;flex-direction:column}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+
+
+.cinematic-section{position:relative;isolation:isolate;overflow:hidden;background:#102a43;color:#fff}
+.section-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;filter:saturate(.82)}
+.cinematic-section:before{content:"";position:absolute;inset:0;background:rgba(8,25,40,.79);z-index:-1}
+.cinematic-section .section-label{color:var(--gold)}
+.cinematic-section h2{color:#fff}
+.cinematic-section .intro{color:#e4eaf0}
+.cinematic-section .category{background:rgba(255,255,255,.94);backdrop-filter:blur(4px)}
+.connect-cinematic:before{background:rgba(8,25,40,.82)}
+.connect-cinematic .social{background:rgba(255,255,255,.95)}
+@media(prefers-reduced-motion:reduce){.section-video{display:none}}
+
+</style>
+</head>
+<body>
+<header><div class="wrap nav"><div class="brand">SHREE VIDYASAGRAM<small>DRESSING GENERATIONS WITH TRUST</small></div><nav class="navlinks" aria-label="Main navigation"><a href="#collections">Collections</a><a href="#gallery">Our store</a><a href="#connect">Social links</a><a href="#visit">Find us</a></nav></div></header>
+<main>
+<section class="hero" aria-label="Shree Vidyasagram storefront">
+<video id="heroCoverVideo" class="hero-photo hero-video" autoplay muted loop playsinline webkit-playsinline preload="auto" poster="assets/shop-front-wide.jpeg" aria-label="Shree Vidyasagram shop cover video"><source src="assets/cover-video-3.mp4" type="video/mp4"></video>
+<div class="wrap hero-content"><div class="eyebrow">Serving generations since 1995</div><h1>Style for every<br><span>generation.</span></h1><p>A family clothing destination in Khaperkheda, Nagpur — bringing together everyday essentials, ethnic styles and occasion wear under one roof.</p><div class="actions"><a class="btn gold" href="https://wa.me/918421337109" target="_blank" rel="noopener">Chat on WhatsApp ↗</a><a class="btn outline" href="https://maps.app.goo.gl/t5xspv2te2hK1eGr7" target="_blank" rel="noopener">Get directions ↗</a></div></div>
+</section>
+<div class="trustbar"><div class="wrap"><span><strong>Since 1995</strong> · Trusted across generations</span><span>Women · Menswear · Kidswear · Ethnic Collection</span><span>Khaperkheda, Nagpur</span></div></div>
+<section id="collections" class="cinematic-section"><video class="section-video" autoplay muted loop playsinline preload="metadata" poster="assets/shop-front-wide.jpeg" aria-hidden="true"><source src="assets/cover-video-1.mp4" type="video/mp4"></video><div class="wrap section-content"><div class="section-label">Our collections</div><h2>Something for everyone.</h2><p class="intro">Clothing for the whole family, all in one place. Visit our store to discover the latest arrivals and seasonal collections.</p><div class="grid"><article class="category"><div class="num">01</div><h3>Women</h3><p>Styles for everyday wear and special moments.</p></article><article class="category"><div class="num">02</div><h3>Menswear</h3><p>From everyday essentials to occasion wear.</p></article><article class="category"><div class="num">03</div><h3>Kidswear</h3><p>Comfortable, colourful looks for little ones.</p></article><article class="category"><div class="num">04</div><h3>Ethnic Collection</h3><p>Traditional styles for celebrations and events.</p></article></div></div></section>
+<section id="gallery" class="gallery"><div class="wrap"><div class="section-label">A look at our store</div><h2>Real store. Real style.</h2><p class="intro">Take a look at the Shree Vidyasagram storefront and clothing displays before you visit.</p><div class="gallery-grid"><figure><img src="assets/shop-front-wide.jpeg" alt="Full exterior view of Shree Vidyasagram" loading="lazy"><figcaption>Our store in Khaperkheda</figcaption></figure><figure><img src="assets/shop-entrance-detail.jpeg" alt="Shree Vidyasagram Hindi storefront sign" loading="lazy"><figcaption>Our sign and entrance</figcaption></figure><figure><img src="assets/shop-mannequin-display.jpeg" alt="Clothing displayed on mannequins outside the shop" loading="lazy"><figcaption>Styles for every generation</figcaption></figure></div></div></section>
+<section id="connect" class="cinematic-section connect-cinematic"><video class="section-video" autoplay muted loop playsinline preload="metadata" poster="assets/shop-entrance-detail.jpeg" aria-hidden="true"><source src="assets/cover-video-2.mp4" type="video/mp4"></video><div class="wrap section-content"><div class="section-label">Stay connected</div><h2>Find us online.</h2><p class="intro">Follow our updates, ask about products, or find your way to the store.</p><div class="social-grid">
+<a class="social" href="https://www.instagram.com/shreevidyasagram_/" target="_blank" rel="noopener"><div><strong>Instagram</strong><span>@shreevidyasagram_</span></div><span class="arrow">↗</span></a>
+<a class="social" href="https://wa.me/918421337109" target="_blank" rel="noopener"><div><strong>WhatsApp</strong><span>Chat with our store</span></div><span class="arrow">↗</span></a>
+<a class="social" href="https://maps.app.goo.gl/t5xspv2te2hK1eGr7" target="_blank" rel="noopener"><div><strong>Google Maps</strong><span>Directions to our store</span></div><span class="arrow">↗</span></a>
+<a class="social" href="https://g.page/r/Ca-2TOqo9VueEAE/review" target="_blank" rel="noopener"><div><strong>Google Reviews</strong><span>Find our listing and reviews</span></div><span class="arrow">↗</span></a>
+<a class="social" href="https://www.facebook.com/share/1Lj1E4ceMg/?mibextid=wwXIfr" target="_blank" rel="noopener"><div><strong>Facebook</strong><span>Open Facebook</span></div><span class="arrow">↗</span></a>
+<a class="social" href="tel:+918421337109"><div><strong>Call the store</strong><span>+91 84213 37109</span></div><span class="arrow">↗</span></a>
+</div></div></section>
+<section id="visit"><div class="wrap visit"><div class="address-card"><div class="section-label">Visit our store</div><h2>We look forward to welcoming you.</h2><p><strong>Shree Vidyasagram</strong><br>Main Road, near State Bank of India<br>Khaperkheda, Nagpur, Maharashtra, India</p><a class="btn gold" href="https://maps.app.goo.gl/t5xspv2te2hK1eGr7" target="_blank" rel="noopener">Open Google Maps ↗</a></div><div class="hours-card"><div class="section-label">Contact & information</div><h2>Let’s connect.</h2><p>For product enquiries, new arrivals and store information, call or message us.</p><p><strong>Phone:</strong> <a href="tel:+918421337109">+91 84213 37109</a><br><strong>WhatsApp:</strong> <a href="https://wa.me/918421337109" target="_blank" rel="noopener">Message us</a><br><strong>Instagram:</strong> <a href="https://www.instagram.com/shreevidyasagram_/" target="_blank" rel="noopener">@shreevidyasagram_</a></p><p><em>Store opening hours can be added after confirmation.</em></p></div></div></section>
+<div class="contact-strip"><div class="wrap contact-inner"><h2>Need help choosing? Talk to us.</h2><a class="btn gold" href="https://wa.me/918421337109" target="_blank" rel="noopener">Message Shree Vidyasagram ↗</a></div></div>
+</main><footer><div class="wrap footer-inner"><div><strong>SHREE VIDYASAGRAM</strong><br>Dressing Generations With Trust · Since 1995</div><div>Khaperkheda, Nagpur, Maharashtra<br><a href="https://www.instagram.com/shreevidyasagram_/" target="_blank" rel="noopener">Instagram</a> · <a href="tel:+918421337109">Call us</a></div><div>© 2026 Shree Vidyasagram</div></div></footer>
+
+
+<script>
+(function(){
+  const v=document.getElementById('heroCoverVideo');
+  if(!v) return;
+  v.muted=true;
+  v.defaultMuted=true;
+  const attempt=()=>{const p=v.play(); if(p&&p.catch)p.catch(()=>{});};
+  v.addEventListener('canplay',attempt,{once:true});
+  window.addEventListener('pageshow',attempt);
+  document.addEventListener('visibilitychange',()=>{if(!document.hidden)attempt();});
+  attempt();
+})();
+</script>
+
+</body></html>
